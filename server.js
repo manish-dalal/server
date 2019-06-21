@@ -13,7 +13,7 @@ app.use(cors());
 
 app.post("/media", function(req, res) {
   //   console.log("data", req);
-  console.log("req@@@@@@@", req);
+  console.log("req@@@@@@@", req.body);
 
   res.send("ok");
 });
